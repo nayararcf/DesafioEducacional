@@ -8,7 +8,7 @@ Projeto criado para o desafio da vaga de QA Engineer da empresa Estratégia Conc
 
 * Java
 * Maven
-* Chrome Driver
+* Chrome Driver (https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
 ### Instalação
 
