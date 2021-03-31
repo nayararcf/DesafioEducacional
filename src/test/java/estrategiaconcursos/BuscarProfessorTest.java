@@ -22,7 +22,7 @@ public class BuscarProfessorTest {
     @Before
     public void setUp() {
         //Abrindo o navegador
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Drivers\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\Drivers\\chromedriver.exe");
         navegador = new ChromeDriver();
         js = (JavascriptExecutor) navegador; //utilizado para rodar a rolagem da página
 
