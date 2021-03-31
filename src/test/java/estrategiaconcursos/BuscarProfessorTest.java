@@ -15,7 +15,7 @@ import java.text.ParseException;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
-public class BuscaProfessorTest {
+public class BuscarProfessorTest {
     private WebDriver navegador;
     private JavascriptExecutor js = (JavascriptExecutor) navegador;
 
@@ -60,7 +60,7 @@ public class BuscaProfessorTest {
                 popupNotificacaoBotaoNao.click();
             }
         } catch (NoSuchElementException ex) {
-            ex.printStackTrace();
+            System.err.println("Elemento #onesignal-slidedown-cancel-button nao encontrado");
         }
 
         js.executeScript("arguments[0].parentNode.removeChild(arguments[0])", navegador.findElement(By.id("getsitecontrol")));
