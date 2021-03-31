@@ -1,3 +1,11 @@
+*.class
+*.jar
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
 target/
 pom.xml.tag
 pom.xml.releaseBackup
